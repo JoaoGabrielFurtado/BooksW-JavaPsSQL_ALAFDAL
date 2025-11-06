@@ -1,0 +1,49 @@
+# ==================================
+# Arquivos do Maven
+# ==================================
+# A pasta 'target' é onde o Java compila seu código e o Maven cria o .war
+/target/
+
+# Arquivos temporários do Maven
+pom.xml.tag
+pom.xml.releaseBackup
+pom.xml.versionsBackup
+pom.xml.next
+release.properties
+dependency-reduced-pom.xml
+buildNumber.properties
+
+# ==================================
+# Arquivos do NetBeans
+# ==================================
+# Arquivos de build do NetBeans (diferentes do Maven)
+/build/
+/dist/
+
+# Configurações do projeto NetBeans
+/nbproject/private/
+/nb-configuration.xml
+/nbactions.xml
+
+# Arquivos do "Java Shell" (se você usar)
+.jshell.history
+
+# ==================================
+# Logs e Arquivos de Runtime
+# ==================================
+*.log
+logs/
+hs_err_pid*
+
+# ==================================
+# Arquivos do Sistema Operacional
+# ==================================
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
